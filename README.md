@@ -3,15 +3,11 @@ A program which simulates particles in a lattice
 
 # Introduction
 in the runone.sh file, choose appropriate values for the number of steps and number of particles to be simulated (likely much smaller than default if you're in any sort of hurry)
-then run the following:
-
-make
-
-python f.py
-
-doall.sh
-
-gnuplot plot.gnu
+then run the following:  
+make  
+python f.py  
+doall.sh  
+gnuplot plot.gnu  
 
 The end result should look similar to the included ans.png
 
@@ -25,12 +21,12 @@ This is because the simulation simulates a square lattice where the set number o
 For an in-depth explanation for why this may cause problems, refer to the create_state function in diffuse23.cpp
 
 # dependencies
-g++
-boost
-gnuplot
-python 3
-gnu parallel
-bash
+g++  
+boost  
+gnuplot  
+python 3  
+gnu parallel  
+bash  
 if you're running the latest version of ubuntu, you may be missing boost, gnu parallel, and gnuplot.
 Install them with this command:
 
