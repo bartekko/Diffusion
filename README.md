@@ -6,8 +6,11 @@ in the runone.sh file, choose appropriate values for the number of steps and num
 then run the following:
 
 make
+
 python f.py
+
 doall.sh
+
 gnuplot plot.gnu
 
 The end result should look similar to the included ans.png
