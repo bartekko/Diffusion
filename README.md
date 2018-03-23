@@ -3,9 +3,9 @@ A program which simulates particles in a lattice
 
 # Introduction
 in the runone.sh file, choose appropriate values for the number of steps and number of particles to be simulated (likely much smaller than default if you're in any sort of hurry)
-then run the following: 
-mkdir intermresults  
-mkdir fresults
+then run the following:   
+mkdir intermresults   
+mkdir fresults    
 make  
 python f.py  
 doall.sh  
